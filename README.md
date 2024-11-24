@@ -6,5 +6,6 @@ install.packages("ggplot2")
 install.packages("dplyr")
 ```
 
+We also uploaded presentation slides for help.
 
 # Happy Graphing ❤
