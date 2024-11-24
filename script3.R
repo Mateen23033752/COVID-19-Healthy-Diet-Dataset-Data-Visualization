@@ -16,4 +16,9 @@ ggplot(summary_data, aes(x = Country, y = Avg_Recovered, group = 1)) +
   geom_bar(stat = "identity", fill = "lightgreen", color = "black") +
   geom_line(aes(y = Avg_Recovered), color = "blue", size = 1) +
   geom_point(aes(y = Avg_Recovered), color = "blue", size = 3) +
-   theme_minimal()
+  labs(
+    title = "Average COVID-19 Recovery Rates by Country",
+    x = "Country",
+    y = "Average Recovery Rate (%)"
+  ) +
+  theme_minimal()
